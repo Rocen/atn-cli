@@ -1,6 +1,6 @@
 {
   "name": "atn-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": ".mongorc.js",
   "dependencies": {
     "init": "^0.1.2",
