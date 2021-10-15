@@ -38,7 +38,8 @@ let init = async(templateName, projectName) => {
                     console.log(symbol.success, chalk.green('Project initialization finished!'));
                 }
             }).catch((err) => {
-                ora().fail('Sorry, download template failed.')
+                // ora().fail('Sorry, download template failed.')
+                loading.fail('Sorry, download template failed.');
             });
         })
     }else {
